@@ -42,6 +42,9 @@ class App extends Component {
       this.setState({ totalSupply })
       // Load Tokens
       let balanceOf = await token.methods.balanceOf(accounts[0]).call()
+      let accountBalance = window.web3.utils.fromWei( await web3.eth.getBalance(accounts[0]))
+      this.setState({accountBalance: accountBalance});
+      console.log(accountBalance );
       for (let i = 0; i < balanceOf; i++) {
         let id = await token.methods.tokenOfOwnerByIndex(accounts[0], i).call()
         let tokenURI = await token.methods.tokenURI(id).call()
@@ -57,6 +60,7 @@ class App extends Component {
     super(props)
     this.state = {
       account: '0x0',
+      accountBalance: 0,
       token: null,
       totalSupply: 0,
       tokenURIs: [],
@@ -70,7 +74,8 @@ class App extends Component {
   render(){  
     return (
     <div className="App">
-      <Navbar account = {this.state.account}/>
+      <Navbar account = {this.state.account}
+              accountBalance ={this.state.accountBalance}/>
     </div>
   );}
 }
