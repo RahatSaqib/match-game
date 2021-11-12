@@ -27,6 +27,11 @@ body{
   height: 40vmin;
   pointer-events: none;
 }
+.gameImage{
+  width: 100px;
+  height: 100px;
+  float: right;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
