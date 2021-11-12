@@ -189,7 +189,7 @@ class App extends Component {
                 <div className="content mr-auto ml-auto">
                   <h1 className="d-4">Start matching now!</h1>
 
-                  <div className="grid mb-4" >
+                  <div className="flex mb-4 gameAlignment" >
 
                     { this.state.gameArray.map((card, key) => {
                       return(
@@ -210,7 +210,7 @@ class App extends Component {
 
                   </div>
 
-                  <div>
+                  <div className="tokenAlignment">
 
                     <h5>Tokens Collected:<span id="result">&nbsp;{this.state.tokenURIs.length}</span></h5>
 
@@ -218,7 +218,7 @@ class App extends Component {
 
                       { this.state.tokenURIs.map((tokenURI, key) => {
                         return(
-                          <img
+                          <img className="gameImage"
                             key={key}
                             src={tokenURI}
                           />
