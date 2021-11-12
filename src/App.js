@@ -7,6 +7,57 @@ import MatchGame from './abis/MatchGame.json';
 import React, { Component } from 'react';
 import Web3 from 'web3'
 
+const GAME_ARRAY = [
+  {
+    name: 'cricket',
+    img: '/images/cricket.png'
+  },
+  {
+    name: 'bat',
+    img: '/images/bat.png'
+  },
+  {
+    name: 'bolleyball',
+    img: '/images/bolleyball.png'
+  },
+  {
+    name: 'football',
+    img: '/images/football.png'
+  },
+  {
+    name: 'rugby',
+    img: '/images/rugby.png'
+  },
+  {
+    name: 'tennis',
+    img: '/images/tennis.png'
+  },
+  {
+    name: 'cricket',
+    img: '/images/cricket.png'
+  },
+  {
+    name: 'bat',
+    img: '/images/bat.png'
+  },
+  {
+    name: 'bolleyball',
+    img: '/images/bolleyball.png'
+  },
+  {
+    name: 'football',
+    img: '/images/football.png'
+  },
+  {
+    name: 'rugby',
+    img: '/images/rugby.png'
+  },
+  {
+    name: 'tennis',
+    img: '/images/tennis.png'
+  }
+]
+
 class App extends Component {
   async componentWillMount() {
     await this.loadWeb3()
