@@ -8,7 +8,7 @@
 
 &nbsp;
 ## 【Video Overview】
-https://drive.google.com/file/d/1T_orQDgcib8jT36BTNZv2OyRAK--T3JP/view?usp=sharing
+Demo video link: https://drive.google.com/file/d/1T_orQDgcib8jT36BTNZv2OyRAK--T3JP/view?usp=sharing
 ***
 ## 【Screenshots】
 ![MG1](https://user-images.githubusercontent.com/37343956/141669682-f9dd61e2-f248-4726-a578-65d9f3c74b76.png)
