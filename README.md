@@ -8,8 +8,13 @@
 
 &nbsp;
 ## 【Video Overview】
-
+https://drive.google.com/file/d/1T_orQDgcib8jT36BTNZv2OyRAK--T3JP/view?usp=sharing
 ***
+## 【Screenshots】
+![MG1](https://user-images.githubusercontent.com/37343956/141669682-f9dd61e2-f248-4726-a578-65d9f3c74b76.png)
+![MG2](https://user-images.githubusercontent.com/37343956/141669687-f0636b56-bb14-4c67-984c-cca9299aa6c8.png)
+![MG3](https://user-images.githubusercontent.com/37343956/141669691-76cbad05-1cb5-49ba-acce-2fb480661123.png)
+
 
 ## 【Setup】
 
